@@ -45,13 +45,13 @@ class head(pygame.sprite.Sprite):
         if pressed[pygame.K_RIGHT] and self.dir !='l' :
             self.dir='r'
             self.v=(1,0)
-        if pressed[pygame.K_LEFT] and self.dir !='r' :
+        elif pressed[pygame.K_LEFT] and self.dir !='r' :
             self.dir='l'
             self.v=(-1,0)
-        if pressed[pygame.K_UP] and self.dir !='d' :
+        elif pressed[pygame.K_UP] and self.dir !='d' :
             self.dir='u'
             self.v=(0,-1)
-        if pressed[pygame.K_DOWN] and self.dir !='u' :
+        elif pressed[pygame.K_DOWN] and self.dir !='u' :
             self.dir='d'
             self.v=(0,1)
         self.rect.x += self.v[0]*SPEED
