@@ -8,7 +8,7 @@ pygame.mixer.init()
 
 WIDTH=660
 HEIGHT=660
-FPS=15
+FPS=20
 WHITE=(255,255,255)
 BLACK=(0,0,0)
 SPEED = 20 
