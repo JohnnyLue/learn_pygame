@@ -14,7 +14,7 @@ BLACK=(0,0,0)
 SPEED = 20 
 HEADSIZE=20
 BODYSIZE=18
-FRUITSIZE=10
+FRUITSIZE=15
 
 head_img =pygame.image.load(os.path.join('img','circle.png'))
 body_img =pygame.image.load(os.path.join('img','circle.png'))
