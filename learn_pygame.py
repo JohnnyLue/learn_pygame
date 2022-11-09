@@ -11,10 +11,10 @@ HEIGHT=660
 FPS=20
 WHITE=(255,255,255)
 BLACK=(0,0,0)
-SPEED = 15 
-HEADSIZE=25
+SPEED = 20 
+HEADSIZE=20
 BODYSIZE=18
-FRUITSIZE=15
+FRUITSIZE=10
 
 head_img =pygame.image.load(os.path.join('img','circle.png'))
 body_img =pygame.image.load(os.path.join('img','circle.png'))
